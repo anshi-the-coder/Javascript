@@ -3,4 +3,4 @@
 // first.insertAdjacentHTML('afterbegin','<div class="test">afterbegin</div>')
 // first.insertAdjacentHTML('aftereend','<div class="test">aftereend</div>')
 
-first.remove()
+first.remove()   
