@@ -30,5 +30,5 @@ let p3 = new Promise((resolve,reject)=>{
 //let promise_all = Promise.resolve(6)
 let promise_all = Promise.reject(new Error("Hey"))
 promise_all.then((value)=>{
-    console.log(value)
+    console.log(value)  
 })
