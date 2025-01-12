@@ -16,8 +16,8 @@
 let arr3 = [1,2,3,5,2,1]
 //let newarr3= arr3.reduce((h1,h2)=>{
     const reduce_fun = (h1,h2)=>{
-    return h1+h2
-}
+        return h1+h2
+    }
 let newarr3 = arr3.reduce(reduce_fun)
 console.log(newarr3)
 
