@@ -1,0 +1,94 @@
+#main{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+/* .mainChild{
+    text-align: center;
+    display: flex;
+} */
+.first{
+    flex: 1;
+    height: 200%;
+    background-color: beige;   
+}
+
+
+.flex-prop-first,.flex-prop-second,.flex-prop-third{
+    display: flex;
+    gap: 10px;
+}
+
+.flex-prop-1-6-1{
+    flex: 1;
+    display: flex;
+    height: 100%;
+    background-color: rgb(255, 0, 17);
+}
+.flex-prop-1-6-2{
+    flex: 6;
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-prop-1-4-1{
+    flex: 1;
+    display: flex;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+}
+.flex-prop-1-4-2{
+    flex: 4;
+    display: flex;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+}
+.flex-prop-1-3-1{
+    flex: 1;
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+}
+.flex-prop-1-3-2{
+    flex: 3;
+    display:flex;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    flex: 1;
+    height: 200%;
+    background-color: rgb(242, 178, 130);
+}
+.flex-justify-child{
+    display: flex;
+    flex-direction: column;
+}
+.flex-justify-1,.flex-justify-2,.flex-justify-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.flex-justify-1{
+    background-color: cornflowerblue;
+    align-self: flex-start;
+} 
+
+.flex-justify-2{
+    background-color: green;
+    align-self: center;
+} 
+
+.flex-justify-3{
+    background-color: indigo;
+    align-self: flex-end;
+} 
