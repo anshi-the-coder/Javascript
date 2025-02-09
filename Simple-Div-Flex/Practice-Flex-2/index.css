@@ -1,0 +1,29 @@
+#main{
+    width:500px;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+}
+
+.mainChild{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.first{
+    flex: 1;
+    background-color: rgb(189, 175, 202);
+}
+.second{
+    flex: 1;
+    background-color: burlywood;
+}
+.third{
+    flex: 1;
+    background-color: bisque;
+}
+.fourth{
+    flex: 1;
+    background-color: coral;
+}

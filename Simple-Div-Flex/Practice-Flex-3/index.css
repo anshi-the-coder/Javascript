@@ -1,0 +1,33 @@
+#main{
+    width: 700px;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(159, 185, 185);
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.mainChild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(33.33% - 10px);;
+}
+
+.first{
+    background-color: brown;
+}
+.second{
+    background-color: aquamarine;
+}
+.third{
+    background-color: coral;
+}
+.fourth{
+    background-color: blanchedalmond;
+}
+.five{
+    background-color: cornsilk;
+}
+.six{
+    background-color: darkgray;
+}

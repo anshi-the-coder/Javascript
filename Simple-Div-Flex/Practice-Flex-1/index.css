@@ -1,0 +1,64 @@
+#main{
+    width: 800px;
+    background-color: beige;
+}
+
+.mainChild{
+    text-align: center;
+    display: flex;
+}
+
+h3{
+    width: max-content;
+}
+
+.first{
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.twoChild{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twoChild:nth-child(1){
+    background-color: pink;
+}
+.twoChild:nth-child(2){
+    background-color: skyblue;
+}
+
+.second{
+    height: 150px;
+}
+
+.third{
+    height: 100px;
+}
+
+.threeChild{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.threeChild:nth-child(1){
+flex: 1;
+background-color: blueviolet;
+}
+
+.threeChild:nth-child(2){
+flex: 2;
+background-color: brown;
+}
+.threeChild:nth-child(3){
+flex: 3;
+background-color: yellow;
+}
