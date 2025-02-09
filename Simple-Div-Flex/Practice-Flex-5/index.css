@@ -8,20 +8,41 @@
     text-align: center;
   }
   
-  .styled-table {
-    width: 200px;
+  .styled-table-1 {
+    width: 400px;
     border-collapse: collapse;
     margin: 10px;
     background-color: grey;
   }
+
+  .styled-table-2{
+    width: 400px;
+    border-collapse: collapse;
+    margin: 10px;
+    background-color: rgb(106, 95, 95);
+  }
+
+  .styled-table-3{
+    width: 400px;
+    border-collapse: collapse;
+    margin: 10px;
+    background-color: rgb(143, 111, 111);
+  }
   
-  .styled-table th, .styled-table td {
+  .styled-table-1 th, .styled-table-1 td, .styled-table-2 th, .styled-table-2 td , .styled-table-3 th, .styled-table-3 td{
     border: 2px solid black;
     padding: 8px;
     text-align: center;
   }
   
-  .styled-table th {
+  .styled-table-1 th {
     background-color: rgb(229, 15, 15);
   }
+  .styled-table-2 th{
+    background-color: green;
+  }
+  .styled-table-3 th{
+    background-color: yellowgreen;
+  }
   
+ 
