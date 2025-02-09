@@ -1,0 +1,27 @@
+.table-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .table-box {
+    text-align: center;
+  }
+  
+  .styled-table {
+    width: 200px;
+    border-collapse: collapse;
+    margin: 10px;
+    background-color: grey;
+  }
+  
+  .styled-table th, .styled-table td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .styled-table th {
+    background-color: rgb(229, 15, 15);
+  }
+  
