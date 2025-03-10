@@ -1,6 +1,6 @@
 let words=["My", "name", "is", "Anshika", "."]
 //My name is Anshika.
-let sentence=""
+let sentence= ""
 for(let i=0;i<words.length;i++){
     sentence=sentence.concat(words[i]+" ");
 }

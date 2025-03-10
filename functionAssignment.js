@@ -6,7 +6,7 @@
 //     console.log(name)
 // }                
 
-// //yaha pe humne variable hi nahi, function(printName) pass kara diya hai 
+//yaha pe humne variable hi nahi, function(printName) pass kara diya hai 
 // function temp(printName){//printName pass karaya hai as a parameter
 //     let name="Anshika"
 //     printName(name)//uppar(parameter) se jo function aya hai usko execute kardiya hai 
