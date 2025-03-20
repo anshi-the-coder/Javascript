@@ -7,7 +7,7 @@ function loadScript(src, callback){
         }
         script.onerror = function(){
             console.log("Error loading script with src:" +src)
-            callback(new Error("Src got soome error"))
+            callback(new Error("Src got some error"))
         }
         document.body.appendChild(script)   
         }
