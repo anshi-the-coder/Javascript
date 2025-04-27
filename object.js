@@ -4,7 +4,7 @@ let anshikaBioData = {
   likes: ["mango", "noodels", "pizza"],
   parent: {
     mummy: {
-      name: "Raajo",
+      name: "Rajo",
       age: 43,
     },
     papa: {
@@ -14,7 +14,7 @@ let anshikaBioData = {
   },
 }; // key->value pair.....copy ki name chit
 
-// console.log(anshikaBioData.parent.papa.age)
+ console.log(anshikaBioData.parent.papa.age)
 
 for (let key in anshikaBioData) {
   console.log(key);

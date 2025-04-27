@@ -9,14 +9,14 @@ let a2 =arr.filter((value)=>{
 console.log(a2)
 
 
-// let arr = ["Cat","Buffelo","Tiger","Elephant","Dog"]
-// let a1 = arr.filter((value)=>{
-//     return value.length>=5
-// })
-// console.log(a1)
+let arr1 = ["Cat","Buffelo","Tiger","Elephant","Dog"]
+let a3 = arr1.filter((value)=>{
+    return value.length>=5
+})
+console.log(a3)
 
-// let arr=["Anshika","Alok","Rajo","Umesh"]
-// let a = arr.map((value)=>{
-//     return value+" "+"Gangwar"
-// })
-// console.log(a)
+let arr2=["Anshika","Alok","Rajo","Umesh"]
+let a = arr2.map((value)=>{
+    return value+" "+"Gangwar"
+})
+console.log(a)
