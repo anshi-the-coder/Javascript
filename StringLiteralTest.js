@@ -4,3 +4,8 @@ function printName(name,work){
     console.log(sentence)
 }
 printName("Anshika","Engeneering")
+
+const girl=((name,age)=>{
+return `My name is ${name}: My age is ${age}`;
+})
+console.log(girl("Anshika",21))

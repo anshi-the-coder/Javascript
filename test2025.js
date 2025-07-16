@@ -12,7 +12,7 @@
 // })
 // console.log(a1)
 
-// reduce
+//map
 // let a = [3,4,2,45,42,12]
 // let a2 = a.map((value)=>{
 //     return value*value
